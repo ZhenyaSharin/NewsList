@@ -23,14 +23,14 @@
 								<div class='news-block-inner-pic text-center'>
 									<img src="<?php echo $data_ready[$i]['image']; ?>">
 								</div>
-							<div class='news-block-inner-title'><?php echo $data_ready[$i]['title'];?></div>
-							<div class='news-block-inner-teaser'><?php echo $data_ready[$i]['preview'];?></div>
+								<div class='news-block-inner-title'><?php echo $data_ready[$i]['title'];?></div>
+								<div class='news-block-inner-teaser'><?php echo $data_ready[$i]['preview'];?></div>
 							</div>
 						</div>
-                <?php endfor;?>
-			<!-- </div> -->
+                		<?php endfor;?>
+				<!-- </div> -->
+			</div>
 		</div>
-	</div>
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
